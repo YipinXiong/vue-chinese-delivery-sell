@@ -47,6 +47,7 @@
     },
     methods: {
       showDetail() {
+        // This is powered by cube-ui, $createApi()
         this.headerDetailComp = this.headerDetailComp || this.$createHeaderDetail({
           $props: {
             seller: 'seller'

@@ -1,7 +1,8 @@
 /*
  * This script was created for mounting the floating component on <body>. Therefore,
- * the floating component would not impact the layout of <app>. 
+ * the floating component would not impact the layout of <app>.
  */
+
 import { createAPI } from 'cube-ui'
 import Vue from 'vue'
 import HeaderDetail from 'components/header-detail/header-detail'
