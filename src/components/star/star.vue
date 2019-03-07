@@ -24,7 +24,6 @@
         return 'star-' + this.size
       },
       itemClasses() {
-        // through this algorithm, map the scores to ratings. If the decimal part is over 0.5, you will get a half star.
         let result = []
         const score = Math.floor(this.score * 2) / 2
         const hasDecimal = score % 1 !== 0
